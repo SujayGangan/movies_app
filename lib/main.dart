@@ -13,12 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Movie App',
       theme: ThemeData.dark(),
-      home: const SplashScreen(),
+      home: const SplashScreen() ,
     );
   }
 }
-
-
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
